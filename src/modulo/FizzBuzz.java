@@ -32,15 +32,10 @@ public static void main(String[] args) {
 		if (i%3==0 && i%5==0) {System.out.println("fizzbuzz");
 			
 		}
-		else {
-			System.out.println(i);
+		else if (i%3==0) {System.out.println("fizz");
 		}
-		if (i%3==0) {System.out.println("fizz");
-		}
-		else {
-			System.out.println(i);
-		}
-		if (i%5==0) {System.out.println("buzz");
+
+		else if (i%5==0) {System.out.println("buzz");
 			
 		}
 		else {
